@@ -1,0 +1,2 @@
+C:/Библиотеки STM32/dwt/CMakeFiles/edit_cache.dir
+C:/Библиотеки STM32/dwt/CMakeFiles/rebuild_cache.dir
