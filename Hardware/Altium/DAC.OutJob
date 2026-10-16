@@ -1,25 +1,12 @@
 [OutputJobFile]
 Version=1.0
-Caption=
-Description=
-VaultGUID=
-ItemGUID=
-ItemHRID=
-RevisionGUID=
-RevisionId=
-VaultHRID=
-AutoItemHRID=
-NextRevId=
-FolderGUID=
-LifeCycleDefinitionGUID=
-RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job1.OutJob
+Name=
 Description=
-TargetOutputMedium=New PDF
+TargetOutputMedium=PDF
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=0
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
@@ -33,10 +20,8 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
-OutputMedium5=New PDF
-OutputMedium5_Type=Publish
 OutputType1=Schematic Print
-OutputName1=Schematic Prints
+OutputName1=Schematic Prints of DAC.SchDoc
 OutputCategory1=Documentation
 OutputDocumentPath1=DAC.SchDoc
 OutputVariantName1=
@@ -45,31 +30,30 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
-OutputEnabled1_OutputMedium5=1
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.98|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A3|PaperIndex=8
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.70|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=False|ShowParamSet=False|ShowProbe=False|ShowBlanket=False|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=False|ShowNoteCollapsed=False|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\GitHub\DAC\Hardware\Altium\DAC.SchDoc
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=
 
 [PublishSettings]
-OutputFilePath2=C:\GitHub\DAC\Hardware\Altium\DOCS\Job1.PDF
+OutputFilePath2=C:\GitHub\DAC\Hardware\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\GitHub\DAC\Hardware\Altium\DOCS\
+OutputBasePath2=C:\GitHub\DAC\Hardware\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=Ý3 DAC.PDF
+OutputFileName2=DAC_Ý3.pdf
 OutputFileNameMulti2=
-UseOutputNameForMulti2=0
+UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
 OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
-FitSCHPrintSizeToDoc2=1
-FitPCBPrintSizeToDoc2=1
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
 GenerateNetsInfo2=1
 MarkPins2=1
 MarkNetLabels2=1
@@ -129,36 +113,9 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-OutputFilePath5=C:\GitHub\DAC\Hardware\Altium\DOCS\Job1.PDF
-ReleaseManaged5=0
-OutputBasePath5=DOCS\
-OutputPathMedia5=
-OutputPathMediaValue5=
-OutputPathOutputer5=[Output Type]
-OutputPathOutputerPrefix5=
-OutputPathOutputerValue5=
-OutputFileName5=Job1.PDF
-OutputFileNameMulti5=
-UseOutputNameForMulti5=1
-OutputFileNameSpecial5=
-OpenOutput5=1
-PromptOverwrite5=1
-PublishMethod5=0
-ZoomLevel5=50
-FitSCHPrintSizeToDoc5=1
-FitPCBPrintSizeToDoc5=1
-GenerateNetsInfo5=1
-MarkPins5=1
-MarkNetLabels5=1
-MarkPortsId5=1
-GenerateTOC5=1
-ShowComponentParameters5=1
-GlobalBookmarks5=0
-PDFACompliance5=Disabled
-PDFVersion5=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\GitHub\DAC\Hardware\Altium\DOCS\Job1.PDF
+RelativeOutputPath2=C:\GitHub\DAC\Hardware\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
@@ -172,6 +129,4 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-RelativeOutputPath5=C:\GitHub\DAC\Hardware\Altium\DOCS\Job1.PDF
-OpenOutputs5=1
 

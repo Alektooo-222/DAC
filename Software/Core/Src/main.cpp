@@ -21,7 +21,6 @@ extern "C"
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-/* #include "usb_device.h" */
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -69,12 +68,6 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-/* uint16_t pwm_table[SINE_SAMPLES * 3] = {
-    0,
-};
-__attribute__((section(".ccmram"))) volatile uint16_t my_array[1000] = {
-    0,
-}; */
 /* USER CODE END 0 */
 
 /**
@@ -97,12 +90,6 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  // MX_GPIO_Init();
-  //MX_DMA_Init();
-  // MX_CAN_Init();
-  //MX_USART1_UART_Init();
-  //MX_USB_DEVICE_Init();
-  // MX_TIM2_Init();
 
   Drivers::init();
   dwtInit();
